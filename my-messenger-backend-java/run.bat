@@ -1,0 +1,1 @@
+java -jar target\my-messenger-backend-1.0-SNAPSHOT.jar --server.port=8080 --management.port=9000

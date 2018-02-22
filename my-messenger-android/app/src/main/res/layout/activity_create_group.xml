@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context="my.messenger.androidclient.ui.CreateGroupActivity">
+
+    <ProgressBar
+        android:id="@+id/activity_create_group_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/activity_create_group_section1"
+        android:layout_alignParentBottom="false">
+
+        <TextView
+            android:id="@+id/activity_create_group_lblCreateGroup"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:hint="@string/activity_create_group_lblCreateGroup"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/activity_create_group_txtGroupName"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:hint="@string/activity_create_group_txtGroupName_hint"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/activity_create_group_section2"
+        android:layout_below="@+id/activity_create_group_section1"
+        android:layout_alignParentBottom="false">
+
+        <ListView
+            android:id="@+id/activity_create_group_lstContacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:choiceMode="multipleChoice"
+            android:layout_weight="1" >
+
+        </ListView>
+
+        <Button
+            android:id="@+id/activity_create_group_btnCreateGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/activity_create_group_btnCreateGroup"
+            android:layout_below="@id/activity_create_group_lstContacts"
+            android:onClick="btnCreateGroup_Click"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

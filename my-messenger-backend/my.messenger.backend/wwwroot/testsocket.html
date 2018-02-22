@@ -1,0 +1,30 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>My-messenger server</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        
+        <script type="text/javascript" src="websocket.js"></script>   
+                
+    </head>
+    <body>
+        <div>testsocket!</div>
+        <input type="button" value="Connect" onclick="javascript:connect()" />
+        <input type="button" value="Close" onclick="javascript:closesocket()" />
+        <hr />
+
+        <input type="button" value="Send ping" onclick="javascript:sendping()" />
+        <hr />
+
+        <input type="button" value="Send login" onclick="javascript:sendlogin(tokenId.value)" />
+        tokenId
+        <input type="text" id="tokenId" />
+        <hr />
+
+        <input type="button" value="Send info" onclick="javascript:sendinfo()" />
+        <hr />
+
+        <input type="button" value="Send raw" onclick="javascript:send(rawmsg.value)" /><br />
+        <textarea id="rawmsg" maxlength="10000" rows="10" cols="50"></textarea>
+    </body>
+</html>

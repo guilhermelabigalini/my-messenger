@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/activity_chat_menu_view_members"
+        android:title="@string/activity_chat_menu_view_members"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/activity_chat_menu_leave_group"
+        android:title="@string/activity_chat_menu_leave_group"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/activity_chat_menu_view_profile"
+        android:title="@string/activity_chat_menu_view_profile"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/activity_chat_menu_load_old_messages"
+        android:title="@string/activity_chat_menu_load_old_messages"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/activity_chat_menu_clear_chat"
+        android:title="@string/activity_chat_menu_clear_chat"
+        app:showAsAction="never"/>
+
+</menu>

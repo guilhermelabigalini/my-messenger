@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--
+    <CheckBox
+        android:id="@+id/contacts_list_item_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"/>
+    -->
+    <!-- android:layout_toLeftOf="@id/contacts_list_item_selected" -->
+    <TextView
+        android:id="@+id/chat_message_list_item_lblContactAndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username - 11/11/2222 14:13:00"
+        android:textStyle="bold"
+        android:padding="4dp"/>
+
+    <!-- android:layout_toLeftOf="@id/contacts_list_item_selected" -->
+    <TextView
+        android:id="@+id/chat_message_list_item_lblText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_message_list_item_lblContactAndDate"
+        android:background="#e3e5e8"
+        android:padding="4dp"
+        android:text="the text goes here verylongword the text goes here verylongword the text goes here verylongword the text goes here verylongword " />
+
+
+</RelativeLayout>

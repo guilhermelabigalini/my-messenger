@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">My Messenger Android Client</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="create_account">Create account</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_incorrect_birthdate">This birthdate is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_settings">CreateAccount</string>
+    <string name="dont_have_account_question">Don\'t have an account?</string>
+    <string name="title_activity_create_account">Create Account</string>
+    <string name="account_created_successfully">Your account was created!</string>
+    <string name="login_successfully">Welcome!</string>
+    <string name="account_unable_to_create">Unable to create your account</string>
+    <string name="title_activity_dev">Dev</string>
+    <string name="Username">Username</string>
+    <string name="BirthDate">Birth Date</string>
+    <string name="password">Password</string>
+    <string name="dev_button">dev</string>
+
+    <string name="contact_button_addContact">Add Contact</string>
+    <string name="contact_unable_to_pull_messages">Unable get messages, check your internet</string>
+    <string name="contact_menu_singout">Singout</string>
+    <string name="contact_menu_create_group">Create Group</string>
+    <string name="contact_main_create_group_popoup_title">Create Group</string>
+    <string name="contact_main_create_group_popoup_message">Enter group name</string>
+
+    <string name="contact_singout_popup_title">Singout</string>
+    <string name="contact_singout_popup_message">Confirm Singout?</string>
+
+
+    <string name="contact_main_long_click_title">Actions</string>
+    <string name="contact_main_long_click_mark_as_read">Mark as read</string>
+    <string name="contact_main_long_click_clear_history">Clear history</string>
+
+    <string name="contact_add_contact_search">Search</string>
+    <string name="contact_add_contact_add_contact">Add</string>
+    <string name="contact_add_contact_cancel">Cancel</string>
+    <string name="contact_add_search_not_found">User profile not found</string>
+    <string name="contact_add_contact_added">User profile added to your contacts</string>
+
+    <string name="contact_chat_messagecontent">Enter your message</string>
+    <string name="contact_chat_unable_to_send_msg">Unable to send message, check your internet</string>
+    <string name="contact_chat_unable_to_leave_group">Unable to to leave group</string>
+
+    <string name="activity_chat_menu_clear_chat">Clear History</string>
+    <string name="activity_chat_menu_view_profile">View Profile</string>
+    <string name="activity_chat_menu_load_old_messages">Load older messages</string>
+    <string name="activity_chat_menu_view_members">View Group Members</string>
+    <string name="activity_chat_menu_leave_group">Leave Group</string>
+
+
+    <string name="activity_chat_msg_menu_title">Actions</string>
+    <string name="activity_chat_msg_menu_copy_message">Copy Message</string>
+    <string name="activity_chat_msg_menu_copy_message_result">Message copied!</string>
+
+    <string name="activity_create_group_lblCreateGroup">Group name</string>
+    <string name="activity_create_group_txtGroupName_hint">Provide group name</string>
+    <string name="activity_create_group_btnCreateGroup">Create Group</string>
+    <string name="activity_create_group_must_select_members">Please, select at least one member</string>
+    <string name="activity_create_group_invalid_group_name">Invalid group name</string>
+    <string name="activity_create_group_group_created">Group created!</string>
+
+    <string name="activity_group_details_lblGroupName">Group Name:</string>
+    <string name="activity_group_details_lblOwner">Owner:</string>
+    <string name="activity_group_details_lblNMembers"># Members</string>
+
+</resources>

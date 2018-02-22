@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/contacts_list_item_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/contacts_list_item_received_at"
+        android:layout_toStartOf="@+id/contacts_list_item_received_at"
+        android:ellipsize="end"
+        android:ems="1"
+        android:lines="1"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:text="Username"
+        android:textColor="#494949"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contacts_list_item_received_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="xx/xx/xxxx hh:mm"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/contacts_list_item_last_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contacts_list_item_received_at"
+        android:layout_toLeftOf="@+id/contacts_list_item_unread_count"
+        android:layout_toStartOf="@+id/contacts_list_item_unread_count"
+        android:ellipsize="end"
+        android:ems="1"
+        android:lines="1"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:text="last message last message last mess message last mess message last mess message last mess message last mess" />
+
+    <TextView
+        android:id="@+id/contacts_list_item_unread_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/contacts_list_item_received_at"
+        android:background="@android:color/holo_green_light"
+        android:padding="4dp"
+        android:text="55" />
+</RelativeLayout>
