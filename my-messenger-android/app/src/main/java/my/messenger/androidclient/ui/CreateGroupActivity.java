@@ -54,7 +54,7 @@ public class CreateGroupActivity extends Activity {
         displayContacts();
     }
 
-    protected void btnCreateGroup_Click(View view) {
+    public void btnCreateGroup_Click(View view) {
 
         int cntChoice = activity_create_group_lstContacts.getCount();
         SparseBooleanArray sparseBooleanArray = activity_create_group_lstContacts.getCheckedItemPositions();

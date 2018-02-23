@@ -50,7 +50,7 @@ public class CreateAccountActivity extends AppCompatActivity {
 
     }
 
-    protected void createAccountOnClick(View v) {
+    public void createAccountOnClick(View v) {
         if (this.mCreateUserTask != null) {
             return;
         }

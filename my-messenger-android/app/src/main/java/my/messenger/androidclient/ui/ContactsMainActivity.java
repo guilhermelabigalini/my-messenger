@@ -341,7 +341,7 @@ public class ContactsMainActivity extends AppCompatActivity implements MyMesseng
                 }).execute((Void)null);
     }
 
-    protected void btnAddContactClick(View v) {
+    public void btnAddContactClick(View v) {
         AddContactActivity.startActivity(this);
     }
 
@@ -350,7 +350,7 @@ public class ContactsMainActivity extends AppCompatActivity implements MyMesseng
         btnAddNewContact.setEnabled(done);
     }
 
-    protected void btnRefreshMessages(View view) {
+    public void btnRefreshMessages(View view) {
         setRefreshMessagesState(false);
 
         AsyncHelper2.runAsync(

@@ -63,11 +63,11 @@ public class AddContactActivity extends AppCompatActivity {
         this.showProgress(false);
     }
 
-    protected void btnAddCancelClick(View v) {
+    public void btnAddCancelClick(View v) {
         onBackPressed();
     }
 
-    protected void btnAddContactClick(View v) {
+    public void btnAddContactClick(View v) {
         if (this.lastProfileResult == null || this.mAddContactTask != null) {
             return;
         }
@@ -107,7 +107,7 @@ public class AddContactActivity extends AppCompatActivity {
                 }).execute(this.lastProfileResult);
     }
 
-    protected void btnsearchClick(View v) {
+    public void btnsearchClick(View v) {
 
         if (mSearchTask != null) {
             return;

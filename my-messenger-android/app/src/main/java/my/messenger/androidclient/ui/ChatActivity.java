@@ -383,7 +383,7 @@ public class ChatActivity extends AppCompatActivity implements MyMessengerMessag
             txtMessageContent.setText("");
     }
 
-    protected void btnSendMessageClick(View v) {
+    public void btnSendMessageClick(View v) {
         final String msgToSend = txtMessageContent.getText().toString().trim();
 
         if (TextUtils.isEmpty(msgToSend)) {

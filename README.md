@@ -16,7 +16,7 @@ Several activities in the application allow users to chat, view profiles, view u
 ### Chat inside a group 
 <img src="https://raw.githubusercontent.com/guilhermelabigalini/my-messenger/master/docs/imgs/Screenshot_1519304766.png" width="260px" height="461px"/>
 
-### Chat inside a group 
+### Chat with an user
 <img src="https://raw.githubusercontent.com/guilhermelabigalini/my-messenger/master/docs/imgs/Screenshot_1519304803.png" width="260px" height="461px"/>
 
 ### Create account 
